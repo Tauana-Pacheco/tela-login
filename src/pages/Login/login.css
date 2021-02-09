@@ -1,0 +1,115 @@
+.tela-login {
+    display: flex;
+    align-items: center;
+    background-color: rgb(100, 94, 93);
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    color:white;
+}
+
+.login-logo img {
+    width: 270px;
+    height: 270px;
+}
+
+.login-right { 
+    background-color: rgb(224, 175, 175);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.login-right h1 {
+    font-family: 'Architects Daughter';
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.login-right h4 {
+    font-family: 'Architects Daughter';
+    font-weight: 270px;
+    margin-top: 40px;
+    font-size: 30px; 
+    font-weight: 500px;
+    color: black;
+}
+
+.Email {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1a1a1d;
+    border-radius: 5px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+}
+
+.Email svg {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.Email input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Password {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1a1a1d;
+    border-radius: 5px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.Password svg {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.Password input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-right button {
+    background-color: #121214;
+    color: #efefef;
+    font-size: 18px;
+    font-weight: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 98%;
+}
+
+.login-right button:hover {
+   background-color: #202020;  
+   color: #E1E1E6;
+}
